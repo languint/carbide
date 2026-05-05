@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = []
+members = ["lib/carbide-parser"]
 
 [workspace.lints.clippy]
 all = { level = "warn", priority = -1 }
